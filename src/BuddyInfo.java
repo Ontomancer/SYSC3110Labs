@@ -33,7 +33,9 @@ public class BuddyInfo {
                 "Homer",
                 "J.",
                 "Simpson");
-        System.out.printf("Hello, %s.", hs.getFirstName());
+        AddressBook ab = new AddressBook();
+        ab.addBuddy(hs);
+        ab.removeBuddy(hs);
         System.out.println("Git lab output.");
     }
 }
