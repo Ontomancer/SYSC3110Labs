@@ -13,10 +13,7 @@ public class AddressBook {
     }
     public static void main(String[] args) {
         //System.out.printf("%s", "hello, world!");
-        BuddyInfo hs = new BuddyInfo("000-000-0001",
-                "Homer",
-                "J.",
-                "Simpson");
+        BuddyInfo hs = new BuddyInfo("Homer Simpson", "742 Evergreen Terrace", "+15558675309");
         AddressBook ab = new AddressBook();
         ab.addBuddy(hs);
         ab.removeBuddy(hs);

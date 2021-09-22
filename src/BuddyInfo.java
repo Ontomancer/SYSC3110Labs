@@ -1,30 +1,26 @@
 public class BuddyInfo {
     public BuddyInfo(){
-        this("-1", "-1", "-1", "-1");
+        this("-1", "-1", "-1");
     }
-    public BuddyInfo(String id, String firstName, String middleName, String lastName) {
-        this.id = id;
-        this.firstName = firstName;
-        this.lastName = lastName;
-    }
-
-    public String getId() {
-        return id;
+    public BuddyInfo(String name, String address, String phone) {
+        this.name = name;
+        this.address = address;
+        this.phone = phone;
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public String getMiddleName() {
-        return middleName;
+    public String getAddress() {
+        return address;
     }
 
-    public String getLastName() {
-        return lastName;
+    public String getPhone() {
+        return phone;
     }
-    private String id;
-    private String firstName;
-    private String middleName;
-    private String lastName;
+
+    private String name;
+    private String address;
+    private String phone;
 }
