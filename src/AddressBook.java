@@ -25,4 +25,7 @@ public class AddressBook {
         // New Change for lab 3.
         // GItHub change for lab 3.
     }
+    public static void newMethod(){
+        //
+    }
 }
