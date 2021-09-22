@@ -22,5 +22,6 @@ public class AddressBook {
         AddressBook ab = new AddressBook();
         ab.addBuddy(hs);
         System.out.println(ab.removeBuddy(0).getName());
+        // New Change for lab 3.
     }
 }
